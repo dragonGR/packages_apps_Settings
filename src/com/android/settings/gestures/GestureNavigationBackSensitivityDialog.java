@@ -145,7 +145,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.BACK_GESTURE_BLOCK_IME, mBlockImeChecked ? 1 : 0);
                     Settings.System.putInt(getActivity().getContentResolver(),
-                            Settings.System.GESTURE_NAVBAR_SHOW, mShowNavChecked ? 1 : 0);
+                            Settings.System.FORCE_SHOW_NAVBAR, mShowNavChecked ? 1 : 0);
                     SystemNavigationGestureSettings.setBackHeight(getActivity(), height);
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),
                             getOverlayManager(), sensitivity);
