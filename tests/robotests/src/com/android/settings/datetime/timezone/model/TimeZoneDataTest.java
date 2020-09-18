@@ -52,7 +52,7 @@ public class TimeZoneDataTest {
         when(countryTimeZones.getTimeZoneMappings()).thenReturn(Collections.emptyList());
         when(mCountryZonesFinder.lookupCountryTimeZones("US")).thenReturn(countryTimeZones);
         assertThat(timeZoneData.lookupCountryTimeZones("US").getCountryTimeZones())
-                .isSameAs(countryTimeZones);
+                .isSameInstanceAs(countryTimeZones);
     }
 
     @Test
