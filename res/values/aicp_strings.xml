@@ -128,4 +128,10 @@
     <string name="gesture_region">Height</string>
 
     <string name="back_height_message">Location is that part of the screen height used as touchable region for the back gesture.</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
+    <string name="value_equals_default">def</string>
 </resources>
