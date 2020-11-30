@@ -85,7 +85,6 @@ import com.android.settings.display.darkmode.DarkModeSettingsFragment;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
 import com.android.settings.fuelgauge.AdvancedPowerUsageDetail;
-import com.android.settings.fuelgauge.BatteryLightSettings;
 import com.android.settings.fuelgauge.PowerUsageSummary;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverScheduleSettings;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverSettings;
@@ -280,7 +279,6 @@ public class SettingsGateway {
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
             MasterClear.class.getName(),
-            BatteryLightSettings.class.getName(),
             ResetDashboardFragment.class.getName(),
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
