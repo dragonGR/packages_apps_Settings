@@ -19,7 +19,6 @@ package com.android.settings.widget;
 import static com.google.common.truth.Truth.assertThat;
 
 import static org.mockito.Mockito.spy;
-import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import android.content.Context;
@@ -109,12 +108,6 @@ public class SeekBarPreferenceTest {
         final SeekBarPreference seekBarPreference = fragment.findPreference("seek_bar");
 
         assertThat(seekBarPreference.isSelectable()).isTrue();
-    }
-
-    @Test
-    public void testSetSeekBarStateDescription() {
-        mSeekBarPreference.setSeekBarStateDescription("test");
-        verify(mSeekBarPreference).setSeekBarStateDescription("test");
     }
 
     public static class TestFragment extends PreferenceFragmentCompat {
